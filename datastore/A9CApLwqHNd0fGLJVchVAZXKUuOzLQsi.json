@@ -1,0 +1,16 @@
+{
+    "ray": {
+      "sid": "2005d8c7ba7b4b48a1dc2eb8e46f223i",
+      "uid": null,
+      "qid": "A9CApLwqHNd0fGLJVchVAZXKUuOzlQsi",
+      "rid": null,
+      "bars": { "default": { "percent": "100", "remaining": "0" } },
+      "messages": [],
+      "status": "COMPLETED",
+      "created_at": "2023-12-30 00:22:55.918509",
+      "updated_at": "2023-12-30 00:23:37.083616",
+      "finished": true
+    },
+    "in": { "text": ["asd"] },
+    "out": { "text": [""] }
+  }
