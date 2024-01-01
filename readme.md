@@ -5,6 +5,7 @@ Welcome to the documentation of the customized chat bot developed for science-re
 
 # How to run?
 **Download and install all the dependencies – **
+
 •	I have provided the requirement.txt file
 •	Download the Llama quantized model from https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin 
 •	We can run the server on port 5500 locally by using the start.sh script or within a Docker container using the Dockerfile.
