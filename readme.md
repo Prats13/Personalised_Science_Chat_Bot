@@ -4,11 +4,14 @@
 Welcome to the documentation of the customized chat bot developed for science-related questions aka the science bot. This document outlines the journey and key components of the project, from requirements to implementation. The outcome of this project developed is to handle scientific questions intelligibly by a bot and provide the best possible answer to it.
 
 # How to run?
-**Download and install all the dependencies – **
+**Download and install all the dependencies –**
 
 •	I have provided the requirement.txt file
+
 •	Download the Llama quantized model from https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin 
+
 •	We can run the server on port 5500 locally by using the start.sh script or within a Docker container using the Dockerfile.
+
 •	To run the UI interface built with the help of Chainlit go to ur environment terminal and type - "chainlit run test,py -w"
 
 # Video Link
