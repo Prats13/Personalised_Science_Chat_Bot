@@ -20,7 +20,7 @@ def create_vector_db():
     embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2',
                                        model_kwargs={'device': 'cuda'}) # we initialize our sentence transformers model along with the device tobe used 
 
-    db = FAISS.from_documents(texts, embeddings, embeddings,allow_dangerous_deserialization=True)# perform the sentence transformation leading to formation of vector embeddings
+    db = FAISS.from_documents(texts, embeddings, allow_dangerous_deserialization=True)# perform the sentence transformation leading to formation of vector embeddings
     db.save_local(DB_FAISS_PATH)
 
 if __name__ == "__main__":
